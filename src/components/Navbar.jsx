@@ -1,34 +1,34 @@
-import { useState } from "react";
-import { Link } from "react-scroll";
-import { FaBars, FaTimes } from "react-icons/fa";
+import { useState } from 'react'
+import { Link } from 'react-scroll'
+import { FaBars, FaTimes } from 'react-icons/fa'
 
-import logo from "../assets/kevinLogo.png";
+import logo from '../assets/kevinLogo.png'
 
 const Navbar = () => {
-  const [nav, setNav] = useState(false);
+  const [nav, setNav] = useState(false)
 
   const links = [
     {
       id: 1,
-      name: "accueil",
-      link: "accueil",
+      name: 'accueil',
+      link: 'accueil',
     },
     {
       id: 2,
-      name: "à propos",
-      link: "presentation",
+      name: 'présentation',
+      link: 'presentation',
     },
     {
       id: 3,
-      name: "portfolio",
-      link: "portfolio",
+      name: 'portfolio',
+      link: 'portfolio',
     },
     {
       id: 4,
-      name: "contact",
-      link: "contact",
+      name: 'contact',
+      link: 'contact',
     },
-  ];
+  ]
 
   return (
     <nav className="mb-20 flex items-center justify-between py-6">
@@ -73,7 +73,7 @@ const Navbar = () => {
         </ul>
       )}
     </nav>
-  );
-};
+  )
+}
 
-export default Navbar;
+export default Navbar

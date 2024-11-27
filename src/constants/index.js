@@ -64,6 +64,7 @@ export const PROJECTS = [
     description:
       'Reprenant une interface proche de Netflix et basé sur TMDB (The Movie Database), une application complète qui rassemble tous les films et séries à travers le monde.',
     technologies: ['React', 'Express', 'MongoDB', 'Redux', 'Axios'],
+    href: 'https://kevflix-mu.vercel.app/',
   },
   {
     title: 'Blog App',
@@ -71,6 +72,7 @@ export const PROJECTS = [
     description:
       "Un blog complet avec fonctionnalités avancées. Intégration de l'editeur Tiptap.",
     technologies: ['Nodejs', 'React Query', 'Tiptap'],
+    href: 'https://mern-blog-client-qtvy.onrender.com/',
   },
   {
     title: 'Whatsapp',
@@ -78,6 +80,7 @@ export const PROJECTS = [
     description:
       "Une version de Whatsapp qui implémente l'IA (GPT pour les conversations et dall-e pour la génération d'images).",
     technologies: ['Nextjs', 'Convex', 'OpenAI', 'ZegoCloud'],
+    href: 'https://diverse-cattle-39.accounts.dev/sign-in?redirect_url=https%3A%2F%2Fwhatsapp-clone-9gbd-dz9h5s4cn-didi518s-projects.vercel.app%2F',
   },
   {
     title: 'MernEats',
@@ -85,6 +88,7 @@ export const PROJECTS = [
     description:
       'Une plateforme rassemblant tous types de restaurants, un peu calqué à ce que peux proposer des applications comme Uber Eats.',
     technologies: ['Express', 'MongoDB', 'Stripe', 'React', 'Vite'],
+    href: 'https://mern-eats-frontend.onrender.com/',
   },
 ]
 

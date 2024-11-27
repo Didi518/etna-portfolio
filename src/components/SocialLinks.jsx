@@ -1,6 +1,6 @@
-import { BsFillPersonLinesFill } from "react-icons/bs";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { HiOutlineMail } from "react-icons/hi";
+import { BsFillPersonLinesFill } from 'react-icons/bs'
+import { FaGithub, FaLinkedin } from 'react-icons/fa'
+import { HiOutlineMail } from 'react-icons/hi'
 
 const SocialLinks = () => {
   const links = [
@@ -11,8 +11,8 @@ const SocialLinks = () => {
           Linkedin <FaLinkedin size={30} />
         </>
       ),
-      href: "https://www.linkedin.com/in/ko-/",
-      style: "rounded-tr-md bg-blue-600",
+      href: 'https://www.linkedin.com/in/ko-/',
+      style: 'rounded-tr-md bg-blue-600',
     },
     {
       id: 2,
@@ -21,8 +21,8 @@ const SocialLinks = () => {
           Github <FaGithub size={30} />
         </>
       ),
-      href: "https://github.com/Didi518",
-      style: "bg-[#333333]",
+      href: 'https://github.com/Didi518',
+      style: 'bg-[#333333]',
     },
     {
       id: 3,
@@ -31,8 +31,8 @@ const SocialLinks = () => {
           Mail <HiOutlineMail size={30} />
         </>
       ),
-      href: "mailto:ouali_k@etna-alternance.net",
-      style: "bg-[#6fc2b0]",
+      href: 'mailto:ouali_k@etna-alternance.net',
+      style: 'bg-[#6fc2b0]',
     },
     {
       id: 4,
@@ -41,11 +41,11 @@ const SocialLinks = () => {
           Mon CV <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "/cv.pdf",
-      style: "rounded-br-md bg-[#565f69]",
+      href: '../assets/cv.pdf',
+      style: 'rounded-br-md bg-[#565f69]',
       download: true,
     },
-  ];
+  ]
 
   return (
     <div className="hidden lg:flex flex-col top-[35%] l-0 fixed">
@@ -54,8 +54,8 @@ const SocialLinks = () => {
           <li
             key={link.id}
             className={
-              "flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[10px] hover:rounded-md duration-300" +
-              " " +
+              'flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[10px] hover:rounded-md duration-300' +
+              ' ' +
               link.style
             }
           >
@@ -72,7 +72,7 @@ const SocialLinks = () => {
         ))}
       </ul>
     </div>
-  );
-};
+  )
+}
 
-export default SocialLinks;
+export default SocialLinks
